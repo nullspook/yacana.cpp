@@ -1,3 +1,15 @@
+# yacana.cpp
+
+`yacana.cpp` is a modified [llama.cpp](https://github.com/ggml-org/llama.cpp) that uses Quantum World Corporation
+(QWC) / ComScire / MindEnabled QRNGs (Quantum Random Number Generators) to generate the tokens. While the output may be
+indistinguishable from the original `llama.cpp`, it introduces a poetic idea, _"the universe whispers through
+language models."_
+
+To use `yacana.cpp`, you need to have a [psirng](https://github.com/nullspook/psirng) server running. Set
+`PSIRNG_HOST`, `PSIRNG_GRPC_PORT`, and `PSIRNG_CERT_PATH` environment variables before running `llama-*` commands.
+
+---
+
 # llama.cpp
 
 ![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)
